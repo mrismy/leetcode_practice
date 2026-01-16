@@ -3,7 +3,7 @@ public class StaticEx {
         A.show(); 
         B.show(); 
 
-        B aRef = new B();
+        A aRef = new B();
         aRef.show(); 
     }
 }
@@ -14,8 +14,8 @@ class A {
 }
 
 class B extends A {
-    static void show() {
-        System.out.println("B");
-    }
+    // static void show() {
+    //     System.out.println("B");
+    // }
 }
 

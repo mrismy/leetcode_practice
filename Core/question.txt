@@ -1,0 +1,6 @@
+class Box {
+    final int[] arr = {1, 2};
+}
+
+box.arr[0] = 99;   allowed or not?
+box.arr = new int[]{5,6}; allowed or not?
